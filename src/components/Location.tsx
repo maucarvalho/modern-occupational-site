@@ -7,8 +7,8 @@ const Location = () => {
     {
       icon: <MapPin className="w-5 h-5 text-pastel-500" />,
       title: 'Endereço',
-      content: 'Avenida São Francisco, 250 sala 1, Centro, Itajaí - SC, 88301-450',
-      link: 'https://maps.app.goo.gl/2myjqi4dVkSBjHvi8',
+      content: 'Rua Joci José Martins, 247 - sala 706 - Pagani, Palhoça - SC, 88132-000',
+      link: 'https://maps.app.goo.gl/HUgRrgBYn1UK3eVNA',
       linkText: 'Ver no mapa'
     },
     {
