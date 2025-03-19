@@ -46,7 +46,7 @@ const Location = () => {
           {/* Map */}
           <div className="rounded-xl overflow-hidden shadow-lg animate-fade-up" style={{ animationDelay: '0.2s' }}>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.2404799280164!2d-48.6634113!3d-26.9126111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8cbc1a7d37aa3%3A0x6e0f1c6a8e61c2f6!2sAv.%20S%C3%A3o%20Francisco%2C%20250%20-%20Centro%2C%20Itaja%C3%AD%20-%20SC%2C%2088301-450!5e0!3m2!1spt-BR!2sbr!4v1716323423724!5m2!1spt-BR!2sbr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.9833367791896!2d-48.67062512394055!3d-27.6422106281889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95274bec1f3d9087%3A0x8ceae41b4e953f59!2sR.%20Joci%20Jos%C3%A9%20Martins%2C%20247%20-%20706%20-%20Pagani%2C%20Palho%C3%A7a%20-%20SC%2C%2088132-148!5e0!3m2!1spt-BR!2sbr!4v1716346097776!5m2!1spt-BR!2sbr"
               width="100%"
               height="450"
               style={{ border: 0 }}
