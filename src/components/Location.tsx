@@ -5,28 +5,28 @@ import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 const Location = () => {
   const contactInfo = [
     {
-      icon: <MapPin className="w-5 h-5 text-therapeutic-500" />,
+      icon: <MapPin className="w-5 h-5 text-pastel-500" />,
       title: 'Endereço',
       content: 'Avenida Paulista, 1578, Bela Vista, São Paulo - SP, 01310-200',
       link: 'https://maps.google.com/?q=Avenida+Paulista,1578,São+Paulo',
       linkText: 'Ver no mapa'
     },
     {
-      icon: <Phone className="w-5 h-5 text-therapeutic-500" />,
+      icon: <Phone className="w-5 h-5 text-pastel-500" />,
       title: 'Telefone',
       content: '(11) 91234-5678',
       link: 'tel:+5511912345678',
       linkText: 'Ligar agora'
     },
     {
-      icon: <Mail className="w-5 h-5 text-therapeutic-500" />,
+      icon: <Mail className="w-5 h-5 text-pastel-500" />,
       title: 'Email',
       content: 'contato@terapiaocupacional.com',
       link: 'mailto:contato@terapiaocupacional.com',
       linkText: 'Enviar email'
     },
     {
-      icon: <Clock className="w-5 h-5 text-therapeutic-500" />,
+      icon: <Clock className="w-5 h-5 text-pastel-500" />,
       title: 'Horário de Atendimento',
       content: 'Segunda a Sexta: 8h às 19h | Sábado: 8h às 13h',
       link: '#',
@@ -35,7 +35,7 @@ const Location = () => {
   ];
 
   return (
-    <section id="location" className="bg-therapeutic-50">
+    <section id="location" className="bg-pastel-50">
       <div className="section-container">
         <h2 className="section-title">Localização e Contato</h2>
         <p className="section-subtitle">
@@ -60,17 +60,17 @@ const Location = () => {
           {/* Contact Information */}
           <div className="space-y-6 animate-fade-up" style={{ animationDelay: '0.4s' }}>
             <div id="contact" className="bg-white p-8 rounded-xl shadow-sm">
-              <h3 className="text-2xl font-medium text-therapeutic-800 mb-6">Informações de Contato</h3>
+              <h3 className="text-2xl font-medium text-pastel-800 mb-6">Informações de Contato</h3>
               <div className="space-y-6">
                 {contactInfo.map((item, index) => (
                   <div key={index} className="flex gap-4">
                     <div className="mt-1">{item.icon}</div>
                     <div>
-                      <h4 className="text-therapeutic-800 font-medium">{item.title}</h4>
-                      <p className="text-therapeutic-600 mb-1">{item.content}</p>
+                      <h4 className="text-pastel-800 font-medium">{item.title}</h4>
+                      <p className="text-pastel-600 mb-1">{item.content}</p>
                       <a 
                         href={item.link} 
-                        className="text-therapeutic-500 hover:text-therapeutic-700 text-sm font-medium inline-flex items-center gap-1"
+                        className="text-pastel-500 hover:text-pastel-700 text-sm font-medium inline-flex items-center gap-1"
                       >
                         {item.linkText}
                       </a>
@@ -80,14 +80,14 @@ const Location = () => {
               </div>
             </div>
             
-            <div className="bg-therapeutic-700 text-white p-8 rounded-xl">
+            <div className="bg-pastel-700 text-white p-8 rounded-xl">
               <h3 className="text-xl font-medium mb-4">Primeira consulta</h3>
               <p className="mb-6">
                 Agende sua avaliação inicial e descubra como a terapia ocupacional pode ajudar você ou seu familiar a conquistar mais independência e qualidade de vida.
               </p>
               <a 
                 href="tel:+5511912345678" 
-                className="inline-block bg-white text-therapeutic-700 hover:bg-therapeutic-100 font-medium px-6 py-3 rounded-lg transition-colors"
+                className="inline-block bg-white text-pastel-700 hover:bg-pastel-100 font-medium px-6 py-3 rounded-lg transition-colors"
               >
                 Agende pelo telefone
               </a>

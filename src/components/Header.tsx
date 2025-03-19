@@ -34,9 +34,9 @@ const Header = () => {
       )}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <a href="#home" className="text-therapeutic-800 font-display text-xl font-medium relative">
+        <a href="#home" className="text-pastel-800 font-display text-xl font-medium relative">
           <span className="relative z-10">Terapia Ocupacional</span>
-          <span className="absolute bottom-0 left-0 w-full h-2 bg-therapeutic-200 rounded-full -z-10 transform translate-y-1"></span>
+          <span className="absolute bottom-0 left-0 w-full h-2 bg-pastel-200 rounded-full -z-10 transform translate-y-1"></span>
         </a>
         
         {/* Desktop Navigation */}
@@ -45,7 +45,7 @@ const Header = () => {
             <a
               key={item.name}
               href={item.href}
-              className="text-therapeutic-700 hover:text-therapeutic-500 font-medium transition-colors duration-200"
+              className="text-pastel-700 hover:text-pastel-500 font-medium transition-colors duration-200"
             >
               {item.name}
             </a>
@@ -54,7 +54,7 @@ const Header = () => {
         
         {/* Mobile Menu Button */}
         <button 
-          className="md:hidden text-therapeutic-700 hover:text-therapeutic-500 transition-colors"
+          className="md:hidden text-pastel-700 hover:text-pastel-500 transition-colors"
           onClick={toggleMenu}
           aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
         >
@@ -74,7 +74,7 @@ const Header = () => {
             <a
               key={item.name}
               href={item.href}
-              className="text-therapeutic-700 text-2xl font-medium hover:text-therapeutic-500 transition-colors"
+              className="text-pastel-700 text-2xl font-medium hover:text-pastel-500 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               {item.name}

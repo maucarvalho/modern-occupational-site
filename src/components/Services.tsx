@@ -47,7 +47,7 @@ const Services = () => {
           {services.map((service, index) => (
             <div 
               key={index} 
-              className="bg-white border border-therapeutic-100 rounded-xl overflow-hidden shadow-sm card-effect animate-fade-up"
+              className="bg-white border border-pastel-100 rounded-xl overflow-hidden shadow-sm card-effect animate-fade-up"
               style={{ animationDelay: `${0.1 + index * 0.1}s` }}
             >
               <div className="h-48 overflow-hidden">
@@ -58,8 +58,8 @@ const Services = () => {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-therapeutic-800 text-xl font-medium mb-2">{service.title}</h3>
-                <p className="text-therapeutic-600">{service.description}</p>
+                <h3 className="text-pastel-800 text-xl font-medium mb-2">{service.title}</h3>
+                <p className="text-pastel-600">{service.description}</p>
               </div>
             </div>
           ))}
