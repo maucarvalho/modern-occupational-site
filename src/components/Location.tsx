@@ -5,28 +5,28 @@ import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 const Location = () => {
   const contactInfo = [
     {
-      icon: <MapPin className="w-5 h-5 text-pastel-500" />,
+      icon: <MapPin className="w-5 h-5 text-white" />,
       title: 'Endereço',
       content: 'Rua Joci José Martins, 247 - sala 706 - Pagani, Palhoça - SC, 88132-000',
       link: 'https://maps.app.goo.gl/HUgRrgBYn1UK3eVNA',
       linkText: 'Ver no mapa'
     },
     {
-      icon: <Phone className="w-5 h-5 text-pastel-500" />,
+      icon: <Phone className="w-5 h-5 text-white" />,
       title: 'Telefone',
       content: '(53) 99103-5330',
       link: 'tel:+5553991035330',
       linkText: 'Ligar agora'
     },
     {
-      icon: <Mail className="w-5 h-5 text-pastel-500" />,
+      icon: <Mail className="w-5 h-5 text-white" />,
       title: 'Email',
       content: 'nataliefonseca.to@gmail.com',
       link: 'mailto:nataliefonseca.to@gmail.com',
       linkText: 'Enviar email'
     },
     {
-      icon: <Clock className="w-5 h-5 text-pastel-500" />,
+      icon: <Clock className="w-5 h-5 text-white" />,
       title: 'Horário de Atendimento',
       content: 'Segunda a Sexta: 8h às 19h',
       link: '#',
@@ -34,11 +34,14 @@ const Location = () => {
     }
   ];
 
+  // Nova cor rosa/lilás
+  const rosaLilas = 'rgb(222, 173, 202)';
+
   return (
-    <section id="location" className="bg-pastel-50">
+    <section id="location" style={{ backgroundColor: rosaLilas }}>
       <div className="section-container">
-        <h2 className="section-title">Localização e Contato</h2>
-        <p className="section-subtitle">
+        <h2 className="section-title text-white">Localização e Contato</h2>
+        <p className="section-subtitle text-white/90">
           Estamos localizados em um ponto central e de fácil acesso. Entre em contato conosco para agendar uma consulta ou obter mais informações.
         </p>
         
@@ -60,17 +63,17 @@ const Location = () => {
           {/* Contact Information */}
           <div className="space-y-6 animate-fade-up" style={{ animationDelay: '0.4s' }}>
             <div id="contact" className="bg-white p-8 rounded-xl shadow-sm">
-              <h3 className="text-2xl font-medium text-pastel-800 mb-6">Informações de Contato</h3>
+              <h3 className="text-2xl font-medium text-gray-800 mb-6">Informações de Contato</h3>
               <div className="space-y-6">
                 {contactInfo.map((item, index) => (
                   <div key={index} className="flex gap-4">
-                    <div className="mt-1">{item.icon}</div>
+                    <div className="mt-1 bg-[rgb(222,173,202)] p-2 rounded-full">{item.icon}</div>
                     <div>
-                      <h4 className="text-pastel-800 font-medium">{item.title}</h4>
-                      <p className="text-pastel-600 mb-1">{item.content}</p>
+                      <h4 className="text-gray-800 font-medium">{item.title}</h4>
+                      <p className="text-gray-600 mb-1">{item.content}</p>
                       <a 
                         href={item.link} 
-                        className="text-pastel-500 hover:text-pastel-700 text-sm font-medium inline-flex items-center gap-1"
+                        className="text-[rgb(222,173,202)] hover:text-[rgb(192,143,172)] text-sm font-medium inline-flex items-center gap-1"
                       >
                         {item.linkText}
                       </a>
@@ -80,14 +83,14 @@ const Location = () => {
               </div>
             </div>
             
-            <div className="bg-pastel-700 text-white p-8 rounded-xl">
+            <div className="bg-[rgb(222,173,202)] text-white p-8 rounded-xl">
               <h3 className="text-xl font-medium mb-4">Primeira consulta</h3>
               <p className="mb-6">
                 Agende sua avaliação inicial e descubra como a terapia ocupacional pode ajudar você ou seu familiar a conquistar mais independência e qualidade de vida.
               </p>
               <a 
-                href="tel:+5511912345678" 
-                className="inline-block bg-white text-pastel-700 hover:bg-pastel-100 font-medium px-6 py-3 rounded-lg transition-colors"
+                href="tel:+5553991035330" 
+                className="inline-block bg-white text-[rgb(222,173,202)] hover:bg-gray-100 font-medium px-6 py-3 rounded-lg transition-colors"
               >
                 Agende pelo telefone
               </a>
