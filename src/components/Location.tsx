@@ -7,8 +7,8 @@ const Location = () => {
     {
       icon: <MapPin className="w-5 h-5 text-pastel-500" />,
       title: 'Endereço',
-      content: 'Avenida Paulista, 1578, Bela Vista, São Paulo - SP, 01310-200',
-      link: 'https://maps.google.com/?q=Avenida+Paulista,1578,São+Paulo',
+      content: 'Avenida São Francisco, 250 sala 1, Centro, Itajaí - SC, 88301-450',
+      link: 'https://maps.app.goo.gl/2myjqi4dVkSBjHvi8',
       linkText: 'Ver no mapa'
     },
     {
@@ -46,7 +46,7 @@ const Location = () => {
           {/* Map */}
           <div className="rounded-xl overflow-hidden shadow-lg animate-fade-up" style={{ animationDelay: '0.2s' }}>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.216793991191!2d-46.65639366884867!3d-23.55829936178144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%201578%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-200!5e0!3m2!1spt-BR!2sbr!4v1666181827752!5m2!1spt-BR!2sbr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.2404799280164!2d-48.6634113!3d-26.9126111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8cbc1a7d37aa3%3A0x6e0f1c6a8e61c2f6!2sAv.%20S%C3%A3o%20Francisco%2C%20250%20-%20Centro%2C%20Itaja%C3%AD%20-%20SC%2C%2088301-450!5e0!3m2!1spt-BR!2sbr!4v1716323423724!5m2!1spt-BR!2sbr"
               width="100%"
               height="450"
               style={{ border: 0 }}
