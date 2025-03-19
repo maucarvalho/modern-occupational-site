@@ -14,8 +14,8 @@ const Location = () => {
     {
       icon: <Phone className="w-5 h-5 text-pastel-500" />,
       title: 'Telefone',
-      content: '(11) 91234-5678',
-      link: 'tel:+5511912345678',
+      content: '(53) 99103-5330',
+      link: 'tel:+5553991035330',
       linkText: 'Ligar agora'
     },
     {
