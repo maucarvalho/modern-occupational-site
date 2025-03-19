@@ -28,7 +28,7 @@ const Location = () => {
     {
       icon: <Clock className="w-5 h-5 text-pastel-500" />,
       title: 'Horário de Atendimento',
-      content: 'Segunda a Sexta: 8h às 19h | Sábado: 8h às 13h',
+      content: 'Segunda a Sexta: 8h às 19h',
       link: '#',
       linkText: 'Agende uma consulta'
     }
