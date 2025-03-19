@@ -35,7 +35,7 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a href="#home" className="text-pastel-800 font-display text-xl font-medium relative">
-          <span className="relative z-10">Terapia Ocupacional</span>
+          <span className="relative z-10">Natalie Fonseca - TO</span>
           <span className="absolute bottom-0 left-0 w-full h-2 bg-pastel-200 rounded-full -z-10 transform translate-y-1"></span>
         </a>
         
