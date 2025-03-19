@@ -21,8 +21,8 @@ const Location = () => {
     {
       icon: <Mail className="w-5 h-5 text-pastel-500" />,
       title: 'Email',
-      content: 'contato@terapiaocupacional.com',
-      link: 'mailto:contato@terapiaocupacional.com',
+      content: 'nataliefonseca.to@gmail.com',
+      link: 'mailto:nataliefonseca.to@gmail.com',
       linkText: 'Enviar email'
     },
     {
