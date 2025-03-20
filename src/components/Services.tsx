@@ -16,7 +16,7 @@ const Services = () => {
     {
       title: 'Reabilitação da Mão',
       description: 'Terapia especializada para lesões, cirurgias ou condições que afetam a função da mão, pulso e antebraço.',
-      image: 'https://images.unsplash.com/photo-1570655653816-c7d95ea36ef1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80'
+      image: 'https://www.finama.edu.br/uploads/courses/2018/06/terapia-da-mao-e-reabilitacao-do-membro-superior-tmrms-118-1529745942.jpg'
     },
     {
       title: 'Avaliação e Modificação do Ambiente',
@@ -26,12 +26,12 @@ const Services = () => {
     {
       title: 'Saúde Mental',
       description: 'Intervenções para ajudar indivíduos com depressão, ansiedade, transtorno bipolar e outras condições de saúde mental a desenvolver habilidades para a vida diária.',
-      image: 'https://images.unsplash.com/photo-1559169637-a25b8433de93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80'
+      image: 'https://jpimg.com.br/uploads/2018/05/o_iluminado_jack_na_porta.jpg'
     },
     {
       title: 'Geriatria',
       description: 'Terapia para adultos mais velhos lidando com os desafios do envelhecimento, incluindo mobilidade reduzida, declínio cognitivo e prevenção de quedas.',
-      image: 'https://images.unsplash.com/photo-1516307078-3bac19bcab9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80'
+      image: 'https://www.rionortesaude.com.br/blog/wp-content/uploads/2022/10/5-Razoes-para-Consultar-um-Medico-Geriatra.jpg'
     }
   ];
 
