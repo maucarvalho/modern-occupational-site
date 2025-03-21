@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { ChevronDown } from 'lucide-react';
+import image1 from "./assets/1.jpeg";
 
 const Hero = () => {
   return (
@@ -41,12 +42,12 @@ const Hero = () => {
             </div>
           </div>
           
-          <div className="relative animate-fade-in hidden lg:block" style={{ animationDelay: '0.5s' }}>
-            <div className="relative mx-auto w-full h-[500px] rounded-2xl overflow-hidden card-effect">
+          <div className="relative animate-fade-in" style={{ animationDelay: '0.5s' }}>
+            <div className="relative mx-auto w-full h-[600px] rounded-2xl overflow-hidden card-effect">
               <div className="glass-effect absolute inset-0 p-8">
                 <div className="w-full h-full relative bg-pastel-50 rounded-lg overflow-hidden shadow-xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
+                    src={image1} 
                     alt="Terapeuta ocupacional trabalhando com paciente" 
                     className="w-full h-full object-cover"
                   />
