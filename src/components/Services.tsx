@@ -5,54 +5,40 @@ import image3 from "./assets/3.jpeg";
 import image4 from "./assets/4.jpeg";
 import image5 from "./assets/5.jpeg";
 import image6 from "./assets/6.jpeg";
+import image7 from "./assets/7.jpeg";
 
 const Services = () => {
   const services = [
     {
-      title: 'Reabilitação Pediátrica',
+      title: 'Desenvolvimento Infantil Especializado',
       description: 'Abordagens especializadas para crianças com atrasos no desenvolvimento, autismo, TDAH e outras condições que afetam o desenvolvimento motor e sensorial.',
       image: image2
     },
     {
-      title: 'Estimulação Sensorial e Motora',
-      description: 'Intervenções para crianças com dificuldades na regulação sensorial e no desenvolvimento motor, ajudando na coordenação, equilíbrio e habilidades motoras finas.',
+      title: 'Sensibilidade Sensorial',
+      description: 'Intervenções baseadas na Integração Sensorial para auxiliar na modulação e habituação às sensações. Trabalhamos para reduzir desconfortos da hipersensibilidade e estimular respostas adequadas em casos de baixa sensibilidade aos estímulos do ambiente.',
       image: image4
     },
-    // {
-    //   title: 'Reabilitação Neurológica',
-    //   description: 'Tratamento para pacientes após AVC, lesões cerebrais traumáticas, esclerose múltipla e outras condições neurológicas que afetam a mobilidade e função.',
-    //   image: 'https://images.unsplash.com/photo-1551601651-2a8555f1a136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1746&q=80'
-    // },
     {
-      title: 'Reabilitação da Mão',
-      description: 'Terapia especializada para lesões, cirurgias ou condições que afetam a função da mão, pulso e antebraço.',
-      image: 'https://www.finama.edu.br/uploads/courses/2018/06/terapia-da-mao-e-reabilitacao-do-membro-superior-tmrms-118-1529745942.jpg'
+      title: 'Seletividade Alimentar',
+      description: 'Acompanhamento para crianças e adolescentes com restrições alimentares, promovendo a aceitação gradativa de novos alimentos diante de desafios sensoriais.',
+      image: image7
     },
     {
       title: 'Treinamento de Atividades da Vida Diária',
       description: 'Apoio no desenvolvimento da autonomia em atividades como vestir-se, alimentar-se, higiene pessoal e organização da rotina.',
       image: image6
     },
-    // {
-    //   title: 'Avaliação e Modificação do Ambiente',
-    //   description: 'Avaliação do ambiente doméstico ou de trabalho para recomendações de adaptações que promovam independência e segurança.',
-    //   image: 'https://images.unsplash.com/photo-1587854692152-cbe660dbde88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1738&q=80'
-    // },
     {
-      title: 'Saúde Mental',
-      description: 'Intervenções para ajudar indivíduos com depressão, ansiedade, transtorno bipolar e outras condições de saúde mental a desenvolver habilidades para a vida diária.',
+      title: 'Desafios Motores',
+      description: 'Intervenção focada no desenvolvimento da coordenação, planejamento motor e controle postural, ajudando crianças e adolescentes a realizarem tarefas diárias como escrever, se vestir e brincar com mais independência e funcionalidade.',
       image: image3
     },
     {
-      title: 'Regulação Emocional e Comportamental',
-      description: 'Estratégias para ajudar crianças a lidarem com emoções, melhorar a atenção, a interação social e a adaptação a diferentes contextos.',
+      title: 'Autorregulação Emocional e Comportamental',
+      description: 'Intervenção com base na Integração Sensorial para ajudar crianças e adolescentes a modularem emoções e comportamentos. Focamos em aprimorar a autorregulação, a atenção e a adaptação a diferentes contextos, promovendo interações mais equilibradas.',
       image: image5
     }
-    // {
-    //   title: 'Geriatria',
-    //   description: 'Terapia para adultos mais velhos lidando com os desafios do envelhecimento, incluindo mobilidade reduzida, declínio cognitivo e prevenção de quedas.',
-    //   image: 'https://www.rionortesaude.com.br/blog/wp-content/uploads/2022/10/5-Razoes-para-Consultar-um-Medico-Geriatra.jpg'
-    // }
   ];
 
   return (

@@ -87,7 +87,7 @@ const Footer = () => {
         
         <div className="border-t border-pastel-700 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-pastel-300 text-sm">
-            &copy; {currentYear} Terapia Ocupacional. Todos os direitos reservados.
+            &copy; {currentYear} Natalie Fonseca - Terapeuta Ocupacional. Todos os direitos reservados.
           </p>
           <p className="text-pastel-300 text-sm flex items-center mt-4 md:mt-0">
             Feito com <Heart className="w-4 h-4 mx-1 text-pastel-500" /> para melhorar vidas

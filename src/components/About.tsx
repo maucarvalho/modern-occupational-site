@@ -21,35 +21,38 @@ const About = () => {
     },
     {
       icon: <Sparkles className="w-6 h-6 text-pastel-500" />,
-      title: 'Métodos Inovadores',
-      description: 'Utilizamos técnicas e tecnologias modernas para potencializar os resultados dos tratamentos.'
+      title: 'Estratégias Inovadoras',
+      description: 'Utilizamos técnicas e estratégias para potencializar os resultados dos tratamentos.'
     }
   ];
 
   return (
     <section id="about" className="bg-pastel-50 overflow-hidden">
       <div className="section-container">
-        <h2 className="section-title">Quem Somos</h2>
+        <h2 className="section-title">Quem Sou Eu</h2>
         <p className="section-subtitle">
-          Dedicados a restaurar, desenvolver e melhorar as habilidades essenciais para a independência e qualidade de vida.
+        Sou Natalie Fonseca, terapeuta ocupacional formada pela Universidade Federal de Pelotas (UFPEL), com atuação especializada no desenvolvimento infantil. Possuo certificação internacional em Integração Sensorial de Ayres pela University of Southern California (USC) e sou pós-graduada em Análise do Comportamento Aplicada (ABA).
+        </p>
+        <p className="section-subtitle">        
+        Atendo crianças e adolescentes com transtornos do neurodesenvolvimento, sempre buscando adaptar ou criar estratégias que facilitem seu dia a dia e favoreçam sua autonomia. Minha prática clínica é baseada em ciência e personalização, utilizando abordagens eficazes para o manejo do comportamento, seletividade alimentar e desenvolvimento de habilidades funcionais, garantindo intervenções alinhadas às necessidades de cada criança e sua família.
         </p>
         
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6" style={{ animationDelay: '0.2s' }}>
             <h3 className="text-2xl md:text-3xl font-medium text-pastel-800 animate-fade-up">Nossa Missão</h3>
             <p className="text-pastel-700 animate-fade-up" style={{ animationDelay: '0.3s' }}>
-              Nossa prática de Terapia Ocupacional é dedicada a ajudar indivíduos de todas as idades a superar desafios físicos, 
-              cognitivos e emocionais que afetam sua capacidade de realizar atividades cotidianas significativas.
+            Nossa missão é proporcionar um atendimento terapêutico especializado e personalizado, 
+            que capacite crianças e adolescentes a desenvolverem suas habilidades, superando desafios 
+            e alcançando sua máxima independência.
             </p>
             <p className="text-pastel-700 animate-fade-up" style={{ animationDelay: '0.4s' }}>
-              Acreditamos que cada pessoa merece viver com independência, dignidade e satisfação, 
-              independentemente de suas limitações. Nosso compromisso é criar planos de tratamento personalizados 
-              que atendam às necessidades únicas de cada cliente.
+            Acreditamos que cada criança é única e, por isso, 
+            nosso trabalho é baseado em estratégias cientificamente comprovadas, sempre adaptadas 
+            para as necessidades individuais de cada paciente. 
             </p>
             <p className="text-pastel-700 animate-fade-up" style={{ animationDelay: '0.5s' }}>
-              Com uma abordagem centrada no cliente e baseada em evidências, 
-              estamos comprometidos em capacitar nossos pacientes a atingir seu máximo potencial 
-              funcional e melhorar sua qualidade de vida geral.
+            Nosso objetivo é transformar o potencial de cada criança em realidade, promovendo 
+            qualidade de vida para ela e para sua família.
             </p>
           </div>
           

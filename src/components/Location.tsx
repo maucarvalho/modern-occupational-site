@@ -86,7 +86,7 @@ const Location = () => {
             <div className="bg-pastel-700 text-white p-8 rounded-xl">
               <h3 className="text-xl font-medium mb-4">Primeira consulta</h3>
               <p className="mb-6">
-                Agende sua avaliação inicial e descubra como a terapia ocupacional pode ajudar você ou seu familiar a conquistar mais independência e qualidade de vida.
+              Agende sua avaliação inicial e descubra como a Terapia Ocupacional pode promover o desenvolvimento e a adaptação, ajudando a superar desafios do dia a dia e alcançar novos progressos.
               </p>
               <a 
                 href="tel:+5511912345678" 

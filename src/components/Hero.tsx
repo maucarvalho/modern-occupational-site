@@ -17,14 +17,14 @@ const Hero = () => {
               Cuidado especializado
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium leading-tight text-pastel-900">
-              Reabilitação e <br />
+              Desenvolvendo Autonomia e<br />
               <span className="text-pastel-500 relative">
                 Independência
                 <span className="absolute bottom-2 left-0 w-full h-3 bg-pastel-200 -z-10"></span>
               </span>
             </h1>
-            <p className="text-pastel-700 text-lg md:text-xl max-w-lg">
-              Desenvolvemos soluções terapêuticas personalizadas que ajudam nossos pacientes a conquistar autonomia e melhor qualidade de vida.
+            <p className="text-pastel-700 text-lg md:text-base max-w-lg">
+            Promovemos o desenvolvimento infantil por meio da Terapia Ocupacional especializada, auxiliando crianças e adolescentes a conquistarem maior autonomia nas atividades do dia a dia. Nossa abordagem é baseada em evidências científicas, com foco na Integração Sensorial de Ayres, em estratégias de manejo comportamental e no fortalecimento das habilidades funcionais, proporcionando mais qualidade de vida para crianças e adolescentes com transtornos do neurodesenvolvimento.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
