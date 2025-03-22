@@ -19,11 +19,12 @@ const Footer = () => {
     {
       title: 'Serviços',
       links: [
-        { name: 'Reabilitação Pediátrica', href: '#services' },
-        { name: 'Reabilitação Neurológica', href: '#services' },
-        { name: 'Reabilitação da Mão', href: '#services' },
-        { name: 'Avaliação Ambiental', href: '#services' },
-        { name: 'Saúde Mental', href: '#services' },
+        { name: 'Desenvolvimento Infantil Especializado', href: '#services' },
+        { name: 'Sensibilidade Sensorial', href: '#services' },
+        { name: 'Seletividade Alimentar', href: '#services' },
+        { name: 'Treinamento de Atividades da Vida Diária', href: '#services' },
+        { name: 'Desafios Motores', href: '#services' },
+        { name: 'Autorregulação Emocional e Comportamental', href: '#services' },
       ]
     },
     {
