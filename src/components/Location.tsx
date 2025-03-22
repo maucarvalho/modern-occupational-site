@@ -89,10 +89,11 @@ const Location = () => {
               Agende sua avaliação inicial e descubra como a Terapia Ocupacional pode promover o desenvolvimento e a adaptação, ajudando a superar desafios do dia a dia e alcançar novos progressos.
               </p>
               <a 
-                href="tel:+5553991035330" 
+                // href="tel:+5553991035330"
+                href="https://api.whatsapp.com/send/?phone=5553991035330&text&type=phone_number&app_absent=0"
                 className="inline-block bg-white text-pastel-700 hover:bg-pastel-100 font-medium px-6 py-3 rounded-lg transition-colors"
               >
-                Agende pelo telefone
+                Agende pelo WhatsApp
               </a>
             </div>
           </div>
