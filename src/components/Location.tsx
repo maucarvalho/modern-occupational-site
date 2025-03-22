@@ -89,7 +89,7 @@ const Location = () => {
               Agende sua avaliação inicial e descubra como a Terapia Ocupacional pode promover o desenvolvimento e a adaptação, ajudando a superar desafios do dia a dia e alcançar novos progressos.
               </p>
               <a 
-                href="tel:+5511912345678" 
+                href="tel:+5553991035330" 
                 className="inline-block bg-white text-pastel-700 hover:bg-pastel-100 font-medium px-6 py-3 rounded-lg transition-colors"
               >
                 Agende pelo telefone
