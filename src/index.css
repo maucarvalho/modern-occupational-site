@@ -79,3 +79,10 @@
   }
 }
 
+.termos-de-uso {
+  @apply bg-[hsl(350,80%,90%)] min-h-screen flex flex-col;
+}
+
+.politica-de-privacidade {
+  @apply bg-[hsl(350,80%,90%)] min-h-screen flex flex-col;
+}
